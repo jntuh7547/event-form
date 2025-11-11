@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Event Registration</h3>
+    <h3>Event on 30-Nov-2025</h3>
+    <form id="form">
+        <label>Name</label>
+        <input type="text" id="name">
+        <label>Email</label>
+        <input type="email" id="email">
+        <label>Event</label>
+        <select id="event">
+            <option>Pick one</option>
+            <option>Conference</option>
+            <option>Workshop</option>
+        </select>
+<button type="button" onclick="join()">Register</button>
+    </form>
+    <script>
+function join(){
+    alert('You Joined');
+    document.getElementById('form').reset();
+}
+    </script>
+</body>
+</html>
